@@ -1,0 +1,41 @@
+h1 {
+  color: #FFFFFF;
+  background: #65A4FA;
+  width: 190px;
+  height: 700px;
+  float: left;
+  margin: 0 30px 0 0;
+  text-align: center;
+  padding-top: 70px;
+  
+}
+body {
+  margin: 0;
+}
+h1+div h2 {
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+span {
+	padding-right: 50px;
+	font-weight: 700;
+}
+
+div {
+	font-weight: 900;
+}
+p {
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+#ability span {
+  padding-right: 0;
+}
+#education span {
+  padding-right: 0;
+}
+#project span {
+  padding-right: 0;
+}

@@ -1,0 +1,26 @@
+span {
+	padding-right: 50px;
+	font-weight: 700;
+}
+
+div {
+	font-weight: 900;
+}
+
+#ability span {
+  padding-right: 0;
+}
+#education span {
+  padding-right: 0;
+}
+#project span {
+  padding-right: 0;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+.br {
+	display: none;
+}
