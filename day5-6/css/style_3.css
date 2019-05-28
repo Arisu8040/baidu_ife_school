@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  background: #848484;
+	color: #FFFFFF;
+	margin: 0;
+	height: 80px;
+	padding-left: 30px; 
+	line-height: 70px;
+	
+}
+
+h3 {
+	width: 140px;
+	height: 140px;
+	background: #D6D6D6;
+	margin: 0;
+	text-align: center;
+	line-height: 140px;
+	float: left; 
+  border-bottom: 1px solid #FFFFFF; 
+  margin: 0 20px 0 0;
+}
+
+span {
+  margin: 0 30px 0 0;
+}
+
+#information,
+#contact,
+#ability,
+#education,
+#project {
+  height: 120px;
+  border-bottom: 1px solid #848484; 
+  padding-top: 20px;
+
+}
+
+p {
+  display: inline;
+}
+br {
+	display: none;
+}
