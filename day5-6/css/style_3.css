@@ -3,24 +3,24 @@ body {
 }
 
 h1 {
-	margin: 0;
-	height: 80px;
-	padding-left: 30px; 
-	line-height: 70px;
-	background: #848484;
+    margin: 0;
+    height: 80px;
+    padding-left: 30px; 
+    line-height: 70px;
+    background: #848484;
     color: #FFFFFF;
 }
 
 h3 {
-	float: left; 
-	width: 140px;
-	height: 140px;
-	margin: 0;
-	border-bottom: 1px solid #FFFFFF;
-	text-align: center;
-	line-height: 140px;
-	margin: 0 20px 0 0;
-	background: #D6D6D6;
+    float: left; 
+    width: 140px;
+    height: 140px;
+    margin: 0;
+    border-bottom: 1px solid #FFFFFF;
+    text-align: center;
+    line-height: 140px;
+    margin: 0 20px 0 0;
+    background: #D6D6D6;
 }
 
 span {
@@ -39,8 +39,8 @@ span {
 }
 
 p {
-	display: inline;
+    display: inline;
 }
 br {
-	display: none;
+    display: none;
 }

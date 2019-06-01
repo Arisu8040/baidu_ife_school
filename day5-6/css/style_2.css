@@ -1,28 +1,28 @@
 h1 {
-	float: left;
-	width: 190px;
-	height: 650px;
-	padding-top: 40px;
-	margin: 0 30px 0 0;
-	text-align: center;
-	color: #FFFFFF;
-	background: #65A4FA;
+    float: left;
+    width: 190px;
+    height: 650px;
+    padding-top: 40px;
+    margin: 0 30px 0 0;
+    text-align: center;
+    color: #FFFFFF;
+    background: #65A4FA;
 }
 
 body {
-	margin: 0;
+    margin: 0;
 }
 
 h1 + h3 {
-	overflow: auto;
-	padding-top: 20px;
-	margin: 0 0 20px 0;
+    overflow: auto;
+    padding-top: 20px;
+    margin: 0 0 20px 0;
 }
 
 span {
-	margin: 0 30px 0 0;
+    margin: 0 30px 0 0;
 }
 
 p {
-	margin: 0;
+    margin: 0;
 }

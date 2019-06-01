@@ -1,40 +1,40 @@
 body {
-	margin: 0;
-	font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 p,
 h3 {
-	margin: 0;
+    margin: 0;
 }
 
 /* 
 头部 
 */
 header {
-	margin: 0 auto;
-	width: 1600px;
-	height: 990px;
-	background-image: url(../img/1_02.png)
+    margin: 0 auto;
+    width: 1600px;
+    height: 990px;
+    background-image: url(../img/1_02.png)
 
 }
 
 .header-top h2 {
-	margin: 0 auto;
-	padding: 207px 0 50px 0;
-	width: 400px;
-	font-size: 62px; 
-	font-weight: 100;
-	color: #ffffff;
+    margin: 0 auto;
+    padding: 207px 0 50px 0;
+    width: 400px;
+    font-size: 62px; 
+    font-weight: 100;
+    color: #ffffff;
 }
 .header-top p {
-	margin: 0 auto;
-	width: 791px;
-	font-size: 20px;
-	color: #d0d0cf;
+    margin: 0 auto;
+    width: 791px;
+    font-size: 20px;
+    color: #d0d0cf;
 }
 .header-top .header-top-p {
-	padding: 0 0 103px 0;
-	width: 244px;
+    padding: 0 0 103px 0;
+    width: 244px;
 }
 
 /* 
@@ -42,45 +42,45 @@ header {
  */
 
 .sign-up {
-	margin: 0 auto;
-	width: 970px;
-	height: 250px;
-	border: 1px solid #4d4c4d;
+    margin: 0 auto;
+    width: 970px;
+    height: 250px;
+    border: 1px solid #4d4c4d;
 }
 .sign-up p {
-	margin: 0 auto;
-	padding: 55px 0 15px 0;
-	width: 250px;
+    margin: 0 auto;
+    padding: 55px 0 15px 0;
+    width: 250px;
     font-size: 16px;
     font-weight: 600;
-	color: #ffffff;
+    color: #ffffff;
 }
 .sign-up .sign-up-p {
-	padding: 0 0 40px 0;
-	width: 180px;
-	font-size: 12px;
-	color: #7d7b72;
+    padding: 0 0 40px 0;
+    width: 180px;
+    font-size: 12px;
+    color: #7d7b72;
 }
 .sign-up input {
-	padding: 0 0 0 25px;
-	margin-right: 30px;
-	border: 1px solid #4d4c4d;
-	width: 290px;
-	height: 50px;
-	background-color: transparent;
-	color: #ffffff;
+    padding: 0 0 0 25px;
+    margin-right: 30px;
+    border: 1px solid #4d4c4d;
+    width: 290px;
+    height: 50px;
+    background-color: transparent;
+    color: #ffffff;
 }
 .sign-up input[type="email"] {
-	margin: 0 30px 0 100px;
+    margin: 0 30px 0 100px;
 }
 
 form button {
-	width: 125px;
-	height: 50px;
-	padding: 0;
-	border: 0;
-	border-radius: 1px;
-	background: #ffffff;
+    width: 125px;
+    height: 50px;
+    padding: 0;
+    border: 0;
+    border-radius: 1px;
+    background: #ffffff;
 }
 
 /* 
@@ -88,268 +88,268 @@ form button {
 */
 .feature {
     margin: 0 auto;
-	width: 1600px;
-	height: 710px;
-	background: #ffffff;
+    width: 1600px;
+    height: 710px;
+    background: #ffffff;
 }
 
 .feature-title :nth-child(1) {
-	margin: 0 auto;
-	padding: 85px 0 30px 0;
-	width: 195PX;
-	font-size: 14px;
-	font-weight: 700;
+    margin: 0 auto;
+    padding: 85px 0 30px 0;
+    width: 195PX;
+    font-size: 14px;
+    font-weight: 700;
 }
 .feature-title :nth-child(2) {
-	margin: 0 auto;
-	width: 690px;
-	font-size: 42px;
+    margin: 0 auto;
+    width: 690px;
+    font-size: 42px;
 }
 .feature-title :nth-child(3) {
-	margin: 0 auto;
-	width: 460px;
-	font-size: 42px;
+    margin: 0 auto;
+    width: 460px;
+    font-size: 42px;
 }
 .feature-introduce {
-	margin: 80px 0 0 275px;
-	
+    margin: 80px 0 0 275px;
+    
 }
 .feature-introduce h3 {
-	margin: 0 0 25px 75px;
+    margin: 0 0 25px 75px;
 }
 .feature-introduce p {
-	margin: 0 0 10px 75px;
+    margin: 0 0 10px 75px;
 }
 
 .mobile-first {
-	float: left;
-	width: 600px;
-	height: 168px;
-	background-image: url(../img/mobile.png);
-	background-repeat: no-repeat;
+    float: left;
+    width: 600px;
+    height: 168px;
+    background-image: url(../img/mobile.png);
+    background-repeat: no-repeat;
 }
 .accessibility {
-	float: left;
-	margin: 0 260px 0 0; 
-	height: 168px;
-	background-image: url(../img/y.png);
-	background-repeat: no-repeat;
+    float: left;
+    margin: 0 260px 0 0; 
+    height: 168px;
+    background-image: url(../img/y.png);
+    background-repeat: no-repeat;
 }
 .fluid-typography {
-	float: left;
-	width: 600px;
-	height: 168px;
-	background-image: url(../img/pen.png);
-	background-repeat: no-repeat;
+    float: left;
+    width: 600px;
+    height: 168px;
+    background-image: url(../img/pen.png);
+    background-repeat: no-repeat;
 }
 .customization {
-	float: left;
-	margin: 0 260px 0 0; 
-	background-image: url(../img/o.png);
-	background-repeat: no-repeat;
+    float: left;
+    margin: 0 260px 0 0; 
+    background-image: url(../img/o.png);
+    background-repeat: no-repeat;
 }
 
 /*
  呼吁行动栏
 */
 .action {
-	width: 1600px;
-	height: 800px;
-	margin: 0 auto;
-	background-image: url(../img/call_to_action.png)
+    width: 1600px;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url(../img/call_to_action.png)
 }
 
 .action h3 {
-	margin: 0 0 0 315px;
-	padding: 185px 0 0 0;
-	font-size: 42px;
-	font-weight: 500;
-	color: #ffffff;
+    margin: 0 0 0 315px;
+    padding: 185px 0 0 0;
+    font-size: 42px;
+    font-weight: 500;
+    color: #ffffff;
 }
 .smart-car {
-	margin: 40px 0 0 315px;
-	line-height: 28px;
-	font-size: 18px;
-	color: #d0d0cf;
+    margin: 40px 0 0 315px;
+    line-height: 28px;
+    font-size: 18px;
+    color: #d0d0cf;
 }
 
 .check {
-	float: left;
-	margin: 60px 30px 0 315px;
-	width: 240px;
-	height: 61px;
-	border: 1px solid #4d4c4d;
-	line-height: 61px;
-	
-	text-align: center;
-	
+    float: left;
+    margin: 60px 30px 0 315px;
+    width: 240px;
+    height: 61px;
+    border: 1px solid #4d4c4d;
+    line-height: 61px;
+    
+    text-align: center;
+    
 }
 .check a {
-	display: inline-block;
-	width: 100%;
-	height: 100%;
-	font-size: 12px;
-	font-weight: 700;
-	color: #ffffff;
-	text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .try {
-	float: left;
-	margin: 60px 0 0 0;
-	width: 236px;
-	height: 61px;
-	border: 1px solid #4d4c4d;
-	line-height: 61px;
-	font-size: 12px;
-	color: #ffffff;
-	text-align: center;
-	text-decoration: none;
+    float: left;
+    margin: 60px 0 0 0;
+    width: 236px;
+    height: 61px;
+    border: 1px solid #4d4c4d;
+    line-height: 61px;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
 }
 .try a {
-	display: inline-block;
-	width: 100%;
-	height: 100%;
-	font-size: 12px;
-	font-weight: 700;
-	color: #ffffff;
-	text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
 }
 .action a:hover {
-	color: #141414;
-	background: #ffffff;
+    color: #141414;
+    background: #ffffff;
 }
 /* 
 介绍栏
  */
  .introduce {
-	margin: 0 auto;
-	width: 1600px;
-	height: 580px;
-	border-bottom: 1px solid #e7e7e7;
-	background: #ffffff;
+    margin: 0 auto;
+    width: 1600px;
+    height: 580px;
+    border-bottom: 1px solid #e7e7e7;
+    background: #ffffff;
  }
 .introduce h3 {
-	padding: 100px 0 0 535px;
-	font-size: 42px;
+    padding: 100px 0 0 535px;
+    font-size: 42px;
 }
 .singleton p {
-	padding: 30px 0 0 330px;
+    padding: 30px 0 0 330px;
 }
 .singleton img {
-	margin: 77px 0 0 388px;
+    margin: 77px 0 0 388px;
 }
 .introduce div {
-	float: left;
+    float: left;
 }
 .hero img {
-	margin: 77px 0 0 170px;
+    margin: 77px 0 0 170px;
 }
 .hero p {
-	padding: 30px 0 0 82px;
+    padding: 30px 0 0 82px;
 }
 
 .portland img {
-	margin: 77px 0 0 150px;
+    margin: 77px 0 0 150px;
 }
 .portland p {
-	padding: 30px 0 0 80px;
+    padding: 30px 0 0 80px;
 }
 /* 
 有图片特征介绍栏 
 */
 .feature-2 {
-	margin: 0 auto;
-	overflow: hidden;
-	width: 1600px;
-	height: 1000px;
-	border-bottom: 1px solid #e7e7e7;
-	background: #ffffff;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1600px;
+    height: 1000px;
+    border-bottom: 1px solid #e7e7e7;
+    background: #ffffff;
 }
 .personal-business {
-	width: 985px;
-	height: 350px;
-	margin: 115px 0 0 315px;
+    width: 985px;
+    height: 350px;
+    margin: 115px 0 0 315px;
 }
 .personal-business img {
-	float: left;
-	margin: 0 100px 0 0;
+    float: left;
+    margin: 0 100px 0 0;
 }
 .personal-business h3 {
-	margin: 0 0 20px 0;
-	font-size: 20px;
-	line-height: 30px;
-	
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 30px;
+    
 }
 .personal-business p {
-	line-height: 26px;
+    line-height: 26px;
 }
 
 .color-schemes {
-	position: relative;
-	overflow: hidden;
-	margin: 80px 0 0 315px;
-	width: 980px;
-	height: 350px;
+    position: relative;
+    overflow: hidden;
+    margin: 80px 0 0 315px;
+    width: 980px;
+    height: 350px;
 }
 .color-schemes img {
-	position: absolute;
-	top: 0;
-	right: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .color-schemes h3 {
-	margin: 70px 0 20px 0;
-	font-size: 20px;
-	line-height: 30px;
+    margin: 70px 0 20px 0;
+    font-size: 20px;
+    line-height: 30px;
 }
 .color-schemes p {
-	line-height: 26px;
+    line-height: 26px;
 }
 /* 
 成员介绍栏
  */
  .team {
-	margin: 0 auto;
-	width: 1600px;
-	height: 1087px;
-	overflow: hidden;
-	background: #ffffff;
+    margin: 0 auto;
+    width: 1600px;
+    height: 1087px;
+    overflow: hidden;
+    background: #ffffff;
  }
  .crew {
-	width: 1000px;
-	height: 886px;
-	margin: 100px 0 0 316px;
+    width: 1000px;
+    height: 886px;
+    margin: 100px 0 0 316px;
  }
  .crew h3 {
-	margin: 0 auto 30px auto;
-	width: 420px;
-	font-size: 42px;
+    margin: 0 auto 30px auto;
+    width: 420px;
+    font-size: 42px;
  }
  .crew-p-2 {
-	margin: 0 auto 60px auto;
+    margin: 0 auto 60px auto;
     width: 450px;
-	line-height: 30px;
-	font-size: 18px;
+    line-height: 30px;
+    font-size: 18px;
  }
  .crew-p-1 {
-	margin: 0 auto;
+    margin: 0 auto;
     width: 710px;
-	line-height: 30px;
-	font-size: 18px;
+    line-height: 30px;
+    font-size: 18px;
  }
  
  .crew img {
     float: left;
-	width: 470px;
-	height: 340px;
+    width: 470px;
+    height: 340px;
  }
  
  .team-1,
  .team-2,
  .team-3,
  .team-4 {
-	position: relative;
-	overflow: hidden;
+    position: relative;
+    overflow: hidden;
     float: left;
     margin: 0 30px 30px 0;
     width: 470px;
@@ -360,29 +360,29 @@ form button {
 透明栏触发设置
  */
 .team-1:hover  .social-buttons {
-	display: inline;
+    display: inline;
  }
 .team-2:hover  .social-buttons {
-	display: inline;
+    display: inline;
 }
 .team-3:hover  .social-buttons {
-	display: inline;
+    display: inline;
 }
  .team-4:hover  .social-buttons { 
-	display: inline;
+    display: inline;
  }
 /* 
 透明栏样式设置
  */
  .social-buttons {
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: #000000;
-	opacity:0.6;
-	width: 470px;
-	height: 340px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000000;
+    opacity:0.6;
+    width: 470px;
+    height: 340px;
  }
 
  
@@ -391,55 +391,55 @@ form button {
  */
  
 .social-buttons h4{
-	width: 135px;
-	margin: 110PX auto 0 auto;
-	font-size: 20px;
-	font-weight: 900;
-	color: #ffffff;
+    width: 135px;
+    margin: 110PX auto 0 auto;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
  }
  .social-buttons p {
-	width: 161px;
-	margin: 0 auto 25px auto;
-	font-size: 12px;
-	color: #d0d0cf;
+    width: 161px;
+    margin: 0 auto 25px auto;
+    font-size: 12px;
+    color: #d0d0cf;
  }
  .social-buttons :nth-child(3) {
-	display: inline-block;
-	height: 58px;
-	width: 58px;
-	margin: 0 10px 0 130px;
-	background-image: url(../img/i_01.png)
+    display: inline-block;
+    height: 58px;
+    width: 58px;
+    margin: 0 10px 0 130px;
+    background-image: url(../img/i_01.png)
  }
  .social-buttons :nth-child(4) {
-	display: inline-block;
-	height: 58px;
-	width: 58px;
-	margin: 0 10px 0 0;
-	background-image: url(../img/i_02.png)
+    display: inline-block;
+    height: 58px;
+    width: 58px;
+    margin: 0 10px 0 0;
+    background-image: url(../img/i_02.png)
 }
 .social-buttons :nth-child(5) {
-	display: inline-block;
-	height: 58px;
-	width: 58px;
-	background-image: url(../img/i_03.png)
+    display: inline-block;
+    height: 58px;
+    width: 58px;
+    background-image: url(../img/i_03.png)
 }
 
 /* 
 联系栏 
 */
 .contact {
-	margin: 0 auto;
-	border-top: 1px solid #d4d3d3;
-	width: 1600px;
-	height: 705px;
-	background: #ffffff;
+    margin: 0 auto;
+    border-top: 1px solid #d4d3d3;
+    width: 1600px;
+    height: 705px;
+    background: #ffffff;
 }
 .write-us {
     float: left;
-	margin: 72px 130px 0 316px;
-	border: 1px solid #d4d3d3;
-	width: 467px;
-	height: 559px;
+    margin: 72px 130px 0 316px;
+    border: 1px solid #d4d3d3;
+    width: 467px;
+    height: 559px;
 }
 .write-us h3 {
     margin: 50px auto 44px auto;
