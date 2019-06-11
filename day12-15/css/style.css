@@ -1,0 +1,556 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+ul,
+dd,
+dl,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.frame-all {
+    height: 100%;
+    position: relative;
+}
+/* 
+*
+*引入字体图标 
+*
+*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont.woff2') format('woff2'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+/* 
+*
+*菜单栏 
+*
+*/
+.menu {
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    background: red;
+    z-index: 1;
+}
+.menu-primary {
+    float: left;
+    width: 100px;
+    height: 100%;
+    background: #1d2531;
+}
+.menu-primary-top li {
+    width: 100px;
+    height: 62px;
+    margin: 0 0 20px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu-primary-top li:nth-child(1) {
+    margin: 20px 0 20px 0;
+    background-image: url(../img/Item_1.png)
+}
+.menu-primary-top li:nth-child(2) {
+    background-image: url(../img/Item_2.png)
+}
+.menu-primary-top li:nth-child(3) {
+    background-image: url(../img/Item_3.png)
+}
+.menu-primary-top li:nth-child(4) {
+    background-image: url(../img/Item_4.png)
+}
+.menu-primary-top a {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+}
+.menu-primary-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 36px;
+}
+.menu-primary-bottom :nth-child(1) {
+    display: inline-block;
+    margin: 0 16px 0 26px;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/grid.png)
+}
+.menu-primary-bottom :nth-child(2) {
+    display: inline-block;
+    margin: 0 16px 0 0;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/settings.png)
+}
+.menu-nav {
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 100%;
+    color: #b7c0cd;
+    background: #222c3c;
+}
+.menu-nav dl {
+    margin: 0 30px 0 30px;
+    width: 190px;
+    height: 24px;
+}
+.menu-nav dt {
+    margin: 30px 0 10px 0;
+    width: 190px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.menu-nav dd {
+    margin: 0 0 10px 0;
+    width: 190px;
+    height: 24px;
+    font-size: 14px;
+}
+.menu-nav dd a {
+    display: inline-block;
+    width: 190px;
+    height: 24px;
+    line-height: 24px;
+    color: #b7c0cd;
+}
+.menu-nav dd span {
+    text-align: center;
+    float: right;
+    display: block;
+    width: 32px;
+    height: 24px;
+    border-radius: 40%;
+    color: #fff;
+    background: #2399f1;
+}
+.menu-nav dt a {
+    float: right;
+    margin: 4PX 0 0 0;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/settings.png)
+}
+.menu-nav dd a:hover {
+    color: #fff;
+}
+.menu-nav dd i {
+    text-align: center;
+    float: right;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    font-style: normal;
+    color: #fff;
+    background: #ea482c;
+}
+.menu-nav ul {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+.menu-nav li:nth-child(1) {
+    margin: 0 20px 0 0;
+}
+.menu-nav ul li {
+    display: inline-block;
+}
+.menu-nav li:nth-child(3) {
+    width: 190px;
+    height: 5px;
+    border-radius: 10px;
+    background: #2d3848;
+}
+.menu-nav ul span {
+    display: block;
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #7f5ce6 , #9286d4);
+}
+/* 
+*
+*信息栏
+* 
+*/
+.messages {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow:auto;
+    left: 0;
+    top: 0;
+}
+.messages-top {
+    height: 80px;
+    border-bottom: 1px solid #e6e9ec;
+}
+.messages-top h3 {
+    position: absolute;
+    top: 20px;
+    left: 380px;
+}
+
+.user-box-top {
+    position: relative;
+    float: right;
+    width: 285px;
+    height: 80px;
+    padding: 14px 0 0 0;
+}
+.user-box-top span {
+    line-height: 26px;
+    color: #2399f1;
+}
+.user-box-top i {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+/* 
+信息栏左侧 
+*/
+.messages-left {
+    position: absolute;
+    top: 80px;
+    left: 350px;
+    width: 400px;
+    height: 100%;
+}
+/* 
+*
+*搜索栏
+*
+ */
+.messages-left form {
+    position: relative;
+    width: 399px;
+    height: 70px;
+    border-right: 1px solid #e6e9ec;
+}
+.messages-left input {
+    width: 338px;
+    height: 34px;
+    margin: 15px 30px;
+    border: 1px solid #e6e9ec;
+}
+.messages-left button {
+    position: absolute;
+    top: 16px;
+    left: 325px;
+    width: 42px;
+    height: 32px;
+    background: #fff;
+    border: 0;
+}
+.messages-left button:hover {
+    background: #2399f1;
+}
+/* 
+*
+*用户框 
+*
+*/
+.user-box-left {
+    position: relative;
+    width: 400px;
+    height: 130px;
+    padding: 15px 20px 20px 30px;
+    border-top: 1px solid #e6e9ec;
+    border-right: 1px solid #e6e9ec;
+    border-bottom: 0;
+}
+
+.blue-color {
+    color: #2399f1;
+}
+.blue-stripe {
+    border-left: 3px solid #2399f1;
+}
+
+.messages-left div {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* .user-box-1 :nth-child(1) {
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    background-image: url(../img/0_22.png);
+    background-repeat: no-repeat;
+} */
+
+
+.user-box-left :nth-child(2) {
+    line-height: 26px;
+   
+}
+.user-box-left :nth-child(3) {
+    float: right;
+    width: 65px;
+    height: 20px;
+    font-size: 14px;
+}
+.user-box-left :nth-child(4) {
+    color: #b5b5b5;
+}
+.user-box-left :nth-child(5) {
+    width: 320px;
+    height: 40px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.user-box-left :nth-child(6) {
+    position: absolute;
+    text-align: center;
+    bottom: 25px;
+    right: 20px;
+    width: 24px;
+    height:24px;
+    border-radius: 50%;
+    color: #fff;
+    background: #2399f1;
+}
+/*
+*
+*信息栏右侧 
+*
+*/
+.messages-right {
+    position: relative;
+    height: 939px;
+    margin-left: 750px;
+}
+.messages-right-top {
+    padding: 18px 20px 0 30px;
+    height: 51px;
+    border-bottom: 1px solid #ced0da;
+}
+.messages-right-top h3 {
+    display: inline;
+    font-size: 18px;
+}
+.messages-right-top span {
+    color: #1bb934;
+}
+.messages-right-icon {
+    float: right;
+    width: 310px;
+}
+.messages-right-tools a { 
+    float: right;
+    display: block;
+    height: 32px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.messages-right-tools {
+    float: left;
+    width: 109px;
+    height: 32px;
+    border: 1px solid #ced0da;
+    margin: 0 23px 0 0;
+    background-color: #fafafc;
+}
+.messages-right-tools a:nth-child(1) {
+    background-image: url(../img/ico_03.png);
+    
+}
+.messages-right-tools a:nth-child(2) {
+    border-left: 1px solid #ced0da;
+    border-right: 1px solid #ced0da;
+    background-image: url(../img/ico_05.png);
+}
+.messages-right-tools a:nth-child(3) {
+    background-image: url(../img/ico_07.png);
+}
+.messages-right-arrows {
+    float: left;
+    height: 32px;
+    width: 153px;
+    border-left: 1px solid #ced0da;
+    padding-left: 20px;
+}
+.messages-right-arrows a {
+    float: right;
+    display: block;
+    height: 32px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fafafc;
+}
+.messages-right-arrows :nth-child(2) {
+    background-image: url(../img/ico_02.png)
+}
+.messages-right-arrows :nth-child(3) {
+    background-image: url(../img/ico_01.png)
+}
+.messages-right-arrows h3 {
+    font-size: 14px;
+    line-height: 32px;
+}
+/* 
+*
+*信息栏右下 
+*
+*/
+
+.user-box {
+    margin-bottom: 30px;
+    
+}
+.user-box-right-1 {
+    position: relative;
+    height: 310px;
+    border-bottom: 1px solid #ced0da;
+    padding: 25px 56px 0 30px;
+}
+.avatar {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0 20px 0 0;
+}
+.user-box-p h3 {
+    float: left;
+    margin: 0 10px 0 0;
+    font-size: 16px;
+}
+.user-box-p p {
+    margin: 10px 0 0 0;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.user-box-p {
+   padding-left: 70px;
+
+}
+.line-font {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -44px;
+    width: 88px;
+    text-align: center;
+    background-color: #fff;
+
+}
+.user-box-right-2 {
+    position: relative;
+    height: 370px;
+    border-bottom: 1px solid #2399f1;
+    padding: 25px 56px 0 30px;
+}
+/* 
+*图片盒子 
+*
+*/
+.photo {
+    width: 156px;
+    height: 101px;
+    position: relative;
+    float: left;
+    margin: 15px 13px 0 0;
+}
+.mask {
+    display: none;
+    width: 156px;
+    height: 101px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000000;
+    opacity: 0.5; 
+}
+.mask div {
+    margin: 25px auto;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #70747c;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+}
+.photo:hover .mask {
+    display: block;
+}
+.line-font-blue {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -63px;
+    width: 127px;
+    text-align: center;
+    background-color: #fff;
+    color: #2399f1;
+}
+.user-box-right-3 {
+    height: 188px;
+    padding: 25px 56px 0 30px;
+}
+form button {
+    float: left;
+    background-position: center;
+    width: 54px;
+    height: 54px;
+    border: 1px solid #ced0da;
+    background-image: url(../img/add.png);
+    background-repeat: no-repeat;
+    background-color: #fafafc;
+}
+form input {
+    float: left;
+    width: 715px;
+    height: 52px;
+    border-top: 1px solid #dfe3e9;
+    border-bottom: 1px solid #dfe3e9;
+    border-left: 0;
+    border-right: 1px solid #dfe3e9;
+    padding: 0 0 0 20px;
+}
