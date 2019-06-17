@@ -20,6 +20,9 @@ li {
 a {
     text-decoration: none;
 }
+i {
+    font-style: normal;
+}
 .frame-all {
     height: 100%;
     position: relative;
@@ -130,6 +133,7 @@ a {
     height: 24px;
     line-height: 24px;
     font-size: 12px;
+    color: #5b6779;
 }
 .menu-nav dd {
     margin: 0 0 10px 0;
@@ -139,18 +143,18 @@ a {
 }
 .menu-nav dd a {
     display: inline-block;
-    width: 190px;
     height: 24px;
     line-height: 24px;
     color: #b7c0cd;
 }
-.menu-nav dd span {
+.menu-nav-i-blue {
     text-align: center;
     float: right;
     display: block;
     width: 32px;
     height: 24px;
     border-radius: 40%;
+    line-height: 24px;
     color: #fff;
     background: #2399f1;
 }
@@ -164,15 +168,33 @@ a {
 .menu-nav dd a:hover {
     color: #fff;
 }
-.menu-nav dd i {
+.menu-nav-i-red {
     text-align: center;
     float: right;
     height: 24px;
     width: 24px;
     border-radius: 50%;
-    font-style: normal;
+    line-height: 24px;
     color: #fff;
     background: #ea482c;
+}
+.menu-nav dd span {
+    float: left;
+    margin-right: 15px;
+    width: 18px;
+    height: 18px;
+}
+.menu-nav-books span {    
+    background-image: url(../img/0_35.png)
+}
+.menu-nav-tutorials span {
+    background-image: url(../img/0_42.png)
+}
+.menu-nav-stocks span {
+    background-image: url(../img/0_45.png)
+}
+.menu-nav-infographics span {
+    background-image: url(../img/0_47.png)
 }
 .menu-nav ul {
     position: absolute;
@@ -241,7 +263,9 @@ a {
 }
 
 /* 
-信息栏左侧 
+*
+*
+*信息栏左侧 
 */
 .messages-left {
     position: absolute;
@@ -254,12 +278,11 @@ a {
 *
 *搜索栏
 *
- */
+*/
 .messages-left form {
     position: relative;
     width: 399px;
     height: 70px;
-    border-right: 1px solid #e6e9ec;
 }
 .messages-left input {
     width: 338px;
@@ -290,7 +313,7 @@ a {
     height: 130px;
     padding: 15px 20px 20px 30px;
     border-top: 1px solid #e6e9ec;
-    border-right: 1px solid #e6e9ec;
+    /* border-right: 1px solid #e6e9ec; */
     border-bottom: 0;
 }
 
@@ -306,16 +329,6 @@ a {
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
-/* .user-box-1 :nth-child(1) {
-    float: left;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-    background-image: url(../img/0_22.png);
-    background-repeat: no-repeat;
-} */
-
 
 .user-box-left :nth-child(2) {
     line-height: 26px;
@@ -323,7 +336,7 @@ a {
 }
 .user-box-left :nth-child(3) {
     float: right;
-    width: 65px;
+    /* width: 65px; */
     height: 20px;
     font-size: 14px;
 }
@@ -365,6 +378,7 @@ a {
     padding: 18px 20px 0 30px;
     height: 51px;
     border-bottom: 1px solid #ced0da;
+    border-left: 1px solid #e6e9ec;
 }
 .messages-right-top h3 {
     display: inline;
@@ -436,15 +450,19 @@ a {
 *信息栏右下 
 *
 */
+.messages-right-bottom {
+    padding: 25px 0 0 0;
+    border-left: 1px solid #e6e9ec;
+}
 
 .user-box {
-    margin-bottom: 30px;
+    padding: 0 25px 0 30px;
+    margin-bottom: 30px
     
 }
 .user-box-right-1 {
     position: relative;
     height: 310px;
-    border-bottom: 1px solid #ced0da;
     padding: 25px 56px 0 30px;
 }
 .avatar {
@@ -468,16 +486,7 @@ a {
    padding-left: 70px;
 
 }
-.line-font {
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    margin-left: -44px;
-    width: 88px;
-    text-align: center;
-    background-color: #fff;
 
-}
 .user-box-right-2 {
     position: relative;
     height: 370px;
@@ -489,10 +498,10 @@ a {
 *
 */
 .photo {
+    display: inline-block;
     width: 156px;
     height: 101px;
     position: relative;
-    float: left;
     margin: 15px 13px 0 0;
 }
 .mask {
@@ -520,22 +529,13 @@ a {
 .photo:hover .mask {
     display: block;
 }
-.line-font-blue {
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    margin-left: -63px;
-    width: 127px;
-    text-align: center;
-    background-color: #fff;
-    color: #2399f1;
-}
+
 .user-box-right-3 {
     height: 188px;
     padding: 25px 56px 0 30px;
 }
-form button {
-    float: left;
+.messages-right-bottom form button {
+    position: absolute;
     background-position: center;
     width: 54px;
     height: 54px;
@@ -544,13 +544,72 @@ form button {
     background-repeat: no-repeat;
     background-color: #fafafc;
 }
-form input {
-    float: left;
-    width: 715px;
-    height: 52px;
+.messages-right-bottom form input {
+    /* left: 54px; */
+    /* width: 715px; */
+    box-sizing: border-box;
+    width: 100%;
+    height: 54px;
     border-top: 1px solid #dfe3e9;
     border-bottom: 1px solid #dfe3e9;
     border-left: 0;
     border-right: 1px solid #dfe3e9;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 74px;
+}
+
+.messages-right-bottom form {
+    position: relative;
+    height: 54px;
+    padding: 0 30px 20px 30px;
+}
+
+/*
+ *
+ *文本线
+ *
+ */
+.line-text-blue {
+    position: relative;
+    height: 16px;
+    margin: 30px 0;
+}
+.line-text-blue :nth-child(1) {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #ced0da;
+}
+.line-text-blue :nth-child(2) {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    margin-left: -63px;
+    line-height: 16px;
+    width: 150px;
+    background-color: #fff;
+    color: #2399f1;
+}
+.line-text {
+    position: relative;
+    height: 16px;
+    margin: 30px 0;
+}
+.line-text :nth-child(1) {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #ced0da;
+}
+.line-text :nth-child(2) {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    margin-left: -44px;
+    line-height: 16px;
+    width: 88px;
+    background-color: #fff;
 }
