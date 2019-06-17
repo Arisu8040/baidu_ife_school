@@ -183,6 +183,7 @@ i {
     margin-right: 15px;
     width: 18px;
     height: 18px;
+    background-repeat: no-repeat;
 }
 .menu-nav-books span {    
     background-image: url(../img/0_35.png)
